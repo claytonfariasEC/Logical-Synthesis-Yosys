@@ -1,0 +1,71 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 233.000000
+     of which used for sequential elements: 233.000000 (100.00%)
+
+=== s1488 ===
+
+   Number of wires:                428
+   Number of wire bits:            428
+   Number of public wires:          63
+   Number of public wire bits:      63
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                396
+     AOI21                          47
+     AOI22                          37
+     INV                            33
+     NAND2                          72
+     NOR2                           86
+     NOR3                           42
+     OAI21                          56
+     OAI22                          14
+     XNOR2                           3
+     dff                             6
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s1488': 20876.000000
+     of which used for sequential elements: 233.000000 (1.12%)
+
+=== design hierarchy ===
+
+   s1488                             1
+     dff                             6
+
+   Number of wires:                446
+   Number of wire bits:            446
+   Number of public wires:          81
+   Number of public wire bits:      81
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                396
+     AOI21                          47
+     AOI22                          37
+     DFFR                            6
+     INV                            33
+     NAND2                          72
+     NOR2                           86
+     NOR3                           42
+     OAI21                          56
+     OAI22                          14
+     XNOR2                           3
+
+   Chip area for top module '\s1488': 22274.000000
+     of which used for sequential elements: 233.000000 (1.05%)
+

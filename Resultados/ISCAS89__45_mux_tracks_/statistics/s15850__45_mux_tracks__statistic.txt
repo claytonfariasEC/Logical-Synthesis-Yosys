@@ -1,0 +1,75 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 140.000000
+     of which used for sequential elements: 140.000000 (100.00%)
+
+=== s15850 ===
+
+   Number of wires:               4777
+   Number of wire bits:           4777
+   Number of public wires:        3279
+   Number of public wire bits:    3279
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2545
+     AOI21                         113
+     AOI22                          68
+     BUF                            11
+     INV                           365
+     MUX21                         130
+     NAND2                         420
+     NOR2                          365
+     NOR3                          170
+     OAI21                         205
+     OAI22                          25
+     XNOR2                         146
+     dff                           527
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s15850': 85754.000000
+     of which used for sequential elements: 140.000000 (0.16%)
+
+=== design hierarchy ===
+
+   s15850                            1
+     dff                           527
+
+   Number of wires:               6358
+   Number of wire bits:           6358
+   Number of public wires:        4860
+   Number of public wire bits:    4860
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               2545
+     AOI21                         113
+     AOI22                          68
+     BUF                            11
+     DFFR                          527
+     INV                           365
+     MUX21                         130
+     NAND2                         420
+     NOR2                          365
+     NOR3                          170
+     OAI21                         205
+     OAI22                          25
+     XNOR2                         146
+
+   Chip area for top module '\s15850': 159534.000000
+     of which used for sequential elements: 140.000000 (0.09%)
+

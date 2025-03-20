@@ -1,0 +1,73 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 140.000000
+     of which used for sequential elements: 140.000000 (100.00%)
+
+=== s5378 ===
+
+   Number of wires:               1598
+   Number of wire bits:           1598
+   Number of public wires:        1096
+   Number of public wire bits:    1096
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                876
+     AOI21                          54
+     AOI22                          30
+     INV                           143
+     MUX21                           2
+     NAND2                         107
+     NOR2                           93
+     NOR3                           55
+     OAI21                          75
+     OAI22                          45
+     XNOR2                          93
+     dff                           179
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s5378': 28380.000000
+     of which used for sequential elements: 140.000000 (0.49%)
+
+=== design hierarchy ===
+
+   s5378                             1
+     dff                           179
+
+   Number of wires:               2135
+   Number of wire bits:           2135
+   Number of public wires:        1633
+   Number of public wire bits:    1633
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                876
+     AOI21                          54
+     AOI22                          30
+     DFFR                          179
+     INV                           143
+     MUX21                           2
+     NAND2                         107
+     NOR2                           93
+     NOR3                           55
+     OAI21                          75
+     OAI22                          45
+     XNOR2                          93
+
+   Chip area for top module '\s5378': 53440.000000
+     of which used for sequential elements: 140.000000 (0.26%)
+

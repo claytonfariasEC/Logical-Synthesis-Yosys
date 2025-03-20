@@ -1,0 +1,29 @@
+
+15. Printing statistics.
+
+=== b09.blif ===
+
+   Number of wires:                130
+   Number of wire bits:            130
+   Number of public wires:          58
+   Number of public wire bits:      58
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                128
+     $_FF_                          28
+     AOI21                           4
+     AOI22                          10
+     INV                            28
+     NAND2                           7
+     NOR2                           22
+     NOR3                            3
+     OAI21                          11
+     OAI22                          12
+     XNOR2                           3
+
+   Area for cell type $_FF_ is unknown!
+
+   Chip area for module '\b09.blif': 4030.000000
+     of which used for sequential elements: 0.000000 (0.00%)
+

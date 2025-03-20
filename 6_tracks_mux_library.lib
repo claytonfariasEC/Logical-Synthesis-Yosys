@@ -1,0 +1,123 @@
+// test comment
+/* LASCAS 2024 - Liberty for 4.5 Tracks*/
+library(demo) {
+
+   cell(BUF) {  // PERGUNTAR SOBRE PARA O PAULO
+    area: 70;
+    pin(A) { direction: input; }
+    pin(Y) { direction: output;
+              function: "A"; }
+  }
+  cell(INV) {
+    area: 35;
+    pin(A) { direction: input; }
+    pin(Y) { direction: output;
+      function: "A'"; }
+  }
+  cell(NAND2) {
+    area: 47;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+     function: "(A*B)'"; }
+  }
+    cell(NAND3) {
+    area: 58;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(C) { direction: input; }
+    
+    pin(Y) { direction: output;
+     function: "(A*B*C)'"; }
+  }
+  cell(NOR2) {
+    area: 47;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+     function: "(A+B)'"; }
+  }
+    cell(NOR3) {
+    area: 58;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+     pin(C) { direction: input; }
+    pin(Y) { direction: output;
+     function: "(A+B+C)'"; }
+  }
+
+    cell(XOR2) {
+    area: 105;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+     function : "(A*B') + (A'*B)"; }
+  }
+
+  
+    cell(XNOR2) {
+    area: 105;
+    pin(A) { direction: input; }
+    pin(B) { direction: input; }
+    pin(Y) { direction: output;
+    function : "(A'*B') + (A*B)"; }
+  }
+
+
+
+      cell(AOI21) {
+    area: 58;
+    pin(A0) { direction: input; }
+    pin(A1) { direction: input; }
+    pin(B0) { direction: input; }
+    pin(Y) { direction: output;
+    function : "(A0 * A1 * B0)'"; }
+  }
+
+
+cell(AOI22) {
+    area: 70;
+    pin(A0) { direction: input; }
+    pin(A1) { direction: input; }
+    pin(B0) { direction: input; }
+    pin(B1) { direction: input; }
+    pin(Y) { direction: output;
+    function : "((A0 * A1) + (B0 * B1))'"; }
+  }
+
+  
+      cell(OAI21) {
+    area: 58;
+    pin(A0) { direction: input; }
+    pin(A1) { direction: input; }
+    pin(B0) { direction: input; }
+    pin(Y) { direction: output;
+    function : "((A0 + A1) * B0)'"; }
+  }
+
+cell(OAI22) {
+    area: 70;
+    pin(A0) { direction: input; }
+    pin(A1) { direction: input; }
+    pin(B0) { direction: input; }
+    pin(B1) { direction: input; }
+    pin(Y) { direction: output;
+    function : "((A0 + A1) * (B0 + B1))'"; }
+  }
+
+  
+cell(DFFR) {
+    area: 233;
+    ff("IQ", "IQN") { clocked_on: C;
+  next_state: D;
+       clear: R; }
+    pin(C) { direction: input;
+ clock: true; }
+    pin(D) { direction: input; }
+    pin(Q) { direction: output;
+      function: "IQ"; }
+    pin(R) { direction: input; }
+    ; // empty statement
+  }
+
+}

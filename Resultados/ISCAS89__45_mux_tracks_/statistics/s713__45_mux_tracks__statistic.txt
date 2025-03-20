@@ -1,0 +1,67 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 140.000000
+     of which used for sequential elements: 140.000000 (100.00%)
+
+=== s713 ===
+
+   Number of wires:                254
+   Number of wire bits:            254
+   Number of public wires:         171
+   Number of public wire bits:     171
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                140
+     AOI21                          13
+     AOI22                           2
+     INV                            25
+     NAND2                          38
+     NOR2                           19
+     NOR3                           13
+     OAI21                          11
+     dff                            19
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s713': 4382.000000
+     of which used for sequential elements: 140.000000 (3.19%)
+
+=== design hierarchy ===
+
+   s713                              1
+     dff                            19
+
+   Number of wires:                311
+   Number of wire bits:            311
+   Number of public wires:         228
+   Number of public wire bits:     228
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                140
+     AOI21                          13
+     AOI22                           2
+     DFFR                           19
+     INV                            25
+     NAND2                          38
+     NOR2                           19
+     NOR3                           13
+     OAI21                          11
+
+   Chip area for top module '\s713': 7042.000000
+     of which used for sequential elements: 140.000000 (1.99%)
+

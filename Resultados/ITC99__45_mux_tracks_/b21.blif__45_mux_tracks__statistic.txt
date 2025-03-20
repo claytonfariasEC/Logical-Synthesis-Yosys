@@ -1,0 +1,31 @@
+
+15. Printing statistics.
+
+=== b21.blif ===
+
+   Number of wires:               6951
+   Number of wire bits:           6951
+   Number of public wires:        1056
+   Number of public wire bits:    1056
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6897
+     $_FF_                         490
+     AOI21                         297
+     AOI22                         477
+     INV                           531
+     MUX21                         129
+     NAND2                        1366
+     NOR2                         1346
+     NOR3                          356
+     OAI21                         942
+     OAI22                         253
+     XNOR2                         689
+     XOR2                           21
+
+   Area for cell type $_FF_ is unknown!
+
+   Chip area for module '\b21.blif': 274112.000000
+     of which used for sequential elements: 0.000000 (0.00%)
+

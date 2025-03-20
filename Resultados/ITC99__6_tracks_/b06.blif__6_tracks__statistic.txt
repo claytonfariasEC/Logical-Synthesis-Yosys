@@ -1,0 +1,27 @@
+
+15. Printing statistics.
+
+=== b06.blif ===
+
+   Number of wires:                 50
+   Number of wire bits:             50
+   Number of public wires:          25
+   Number of public wire bits:      25
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 41
+     $_FF_                           8
+     AOI21                           3
+     INV                             5
+     NAND2                           9
+     NOR2                            8
+     NOR3                            2
+     OAI21                           4
+     OAI22                           2
+
+   Area for cell type $_FF_ is unknown!
+
+   Chip area for module '\b06.blif': 1636.000000
+     of which used for sequential elements: 0.000000 (0.00%)
+

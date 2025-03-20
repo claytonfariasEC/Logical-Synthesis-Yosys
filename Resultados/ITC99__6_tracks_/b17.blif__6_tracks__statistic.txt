@@ -1,0 +1,30 @@
+
+15. Printing statistics.
+
+=== b17.blif ===
+
+   Number of wires:              17348
+   Number of wire bits:          17348
+   Number of public wires:        2994
+   Number of public wire bits:    2994
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              17212
+     $_FF_                        1414
+     AOI21                        1399
+     AOI22                        2430
+     INV                          1707
+     NAND2                        3727
+     NOR2                         2762
+     NOR3                          905
+     OAI21                        1622
+     OAI22                         415
+     XNOR2                         668
+     XOR2                          163
+
+   Area for cell type $_FF_ is unknown!
+
+   Chip area for module '\b17.blif': 878841.000000
+     of which used for sequential elements: 0.000000 (0.00%)
+

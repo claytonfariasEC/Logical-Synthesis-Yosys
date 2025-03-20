@@ -1,0 +1,19 @@
+#read_verilog /content/ctrl.v
+
+#stat
+
+#hierarchy -check -top top
+
+#proc; opt; fsm; opt; memory; opt
+
+#techmap; opt
+
+#dfflibmap -liberty /content/mycells.lib
+
+#abc -liberty /content/mycells.lib
+
+#clean
+
+#write_verilog synth.v
+
+script /content/script.ys

@@ -1,0 +1,17 @@
+read_verilog /content/s27.v
+
+stat
+
+hierarchy -check -top s27
+
+proc; opt; fsm; opt; memory; opt
+
+techmap; opt
+
+dfflibmap -liberty /content/45_tracks_library.lib
+
+abc -liberty /content/45_tracks_library.lib
+
+clean
+
+write_verilog /content/results/s27_45_tracks.v

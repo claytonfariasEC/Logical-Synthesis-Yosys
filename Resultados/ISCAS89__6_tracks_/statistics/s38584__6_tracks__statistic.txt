@@ -1,0 +1,75 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 233.000000
+     of which used for sequential elements: 233.000000 (100.00%)
+
+=== s38584 ===
+
+   Number of wires:              11914
+   Number of wire bits:          11914
+   Number of public wires:        5656
+   Number of public wire bits:    5656
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8982
+     AOI21                         532
+     AOI22                         245
+     BUF                             6
+     INV                          1373
+     NAND2                        1639
+     NOR2                         1128
+     NOR3                          463
+     OAI21                        1497
+     OAI22                         441
+     XNOR2                         145
+     XOR2                           97
+     dff                          1416
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s38584': 396490.000000
+     of which used for sequential elements: 233.000000 (0.06%)
+
+=== design hierarchy ===
+
+   s38584                            1
+     dff                          1416
+
+   Number of wires:              16162
+   Number of wire bits:          16162
+   Number of public wires:        9904
+   Number of public wire bits:    9904
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8982
+     AOI21                         532
+     AOI22                         245
+     BUF                             6
+     DFFR                         1416
+     INV                          1373
+     NAND2                        1639
+     NOR2                         1128
+     NOR3                          463
+     OAI21                        1497
+     OAI22                         441
+     XNOR2                         145
+     XOR2                           97
+
+   Chip area for top module '\s38584': 726418.000000
+     of which used for sequential elements: 233.000000 (0.03%)
+

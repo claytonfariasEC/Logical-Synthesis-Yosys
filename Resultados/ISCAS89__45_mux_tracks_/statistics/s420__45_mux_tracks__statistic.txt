@@ -1,0 +1,71 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 140.000000
+     of which used for sequential elements: 140.000000 (100.00%)
+
+=== s420 ===
+
+   Number of wires:                123
+   Number of wire bits:            123
+   Number of public wires:          52
+   Number of public wire bits:      52
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                104
+     AOI21                          14
+     AOI22                           1
+     INV                            16
+     MUX21                           1
+     NAND2                          13
+     NOR2                           12
+     NOR3                            6
+     OAI21                           9
+     XNOR2                          16
+     dff                            16
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s420': 3559.000000
+     of which used for sequential elements: 140.000000 (3.93%)
+
+=== design hierarchy ===
+
+   s420                              1
+     dff                            16
+
+   Number of wires:                171
+   Number of wire bits:            171
+   Number of public wires:         100
+   Number of public wire bits:     100
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                104
+     AOI21                          14
+     AOI22                           1
+     DFFR                           16
+     INV                            16
+     MUX21                           1
+     NAND2                          13
+     NOR2                           12
+     NOR3                            6
+     OAI21                           9
+     XNOR2                          16
+
+   Chip area for top module '\s420': 5799.000000
+     of which used for sequential elements: 140.000000 (2.41%)
+

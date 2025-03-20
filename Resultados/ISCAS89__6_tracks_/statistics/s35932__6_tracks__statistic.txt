@@ -1,0 +1,67 @@
+
+15. Printing statistics.
+
+=== dff ===
+
+   Number of wires:                  3
+   Number of wire bits:              3
+   Number of public wires:           3
+   Number of public wire bits:       3
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  1
+     DFFR                            1
+
+   Chip area for module '\dff': 233.000000
+     of which used for sequential elements: 233.000000 (100.00%)
+
+=== s35932 ===
+
+   Number of wires:               8510
+   Number of wire bits:           8510
+   Number of public wires:        3610
+   Number of public wire bits:    3610
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8388
+     INV                          1417
+     NAND2                        2007
+     NOR2                         1033
+     NOR3                          368
+     OAI21                         336
+     XNOR2                         838
+     XOR2                          661
+     dff                          1728
+
+   Area for cell type \dff is unknown!
+
+   Chip area for module '\s35932': 390702.000000
+     of which used for sequential elements: 233.000000 (0.06%)
+
+=== design hierarchy ===
+
+   s35932                            1
+     dff                          1728
+
+   Number of wires:              13694
+   Number of wire bits:          13694
+   Number of public wires:        8794
+   Number of public wire bits:    8794
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               8388
+     DFFR                         1728
+     INV                          1417
+     NAND2                        2007
+     NOR2                         1033
+     NOR3                          368
+     OAI21                         336
+     XNOR2                         838
+     XOR2                          661
+
+   Chip area for top module '\s35932': 793326.000000
+     of which used for sequential elements: 233.000000 (0.03%)
+

@@ -1,0 +1,30 @@
+
+15. Printing statistics.
+
+=== b13.blif ===
+
+   Number of wires:                248
+   Number of wire bits:            248
+   Number of public wires:         126
+   Number of public wire bits:     126
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                228
+     $_FF_                          53
+     AOI21                          19
+     AOI22                           7
+     INV                            35
+     MUX21                           9
+     NAND2                          41
+     NOR2                           25
+     NOR3                            5
+     OAI21                          24
+     OAI22                           4
+     XNOR2                           6
+
+   Area for cell type $_FF_ is unknown!
+
+   Chip area for module '\b13.blif': 7255.000000
+     of which used for sequential elements: 0.000000 (0.00%)
+
